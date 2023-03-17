@@ -9,7 +9,7 @@ incorrecto = 0
 # Contador inicial de tiempo.
 # Esto toma la fecha y hora actual.
 init_time = datetime.now()
-print(f"¡Veremos cuanto tardas en responder estas {times} operaciones!")
+print(f"¡Hola! ¡Veremos cuanto tardas en responder estas {times} operaciones!")
 for i in range(0, times):
     # Se eligen números y operador al azar
     number_1 = randrange(10)
